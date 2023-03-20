@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   gitkraken:
-    image: cburggraafeagerly/gitkraken
+    image: ghcr.io/eagerly-internet/docker-gitkraken:latest
     container_name: gitkraken
     build:
       context: .
